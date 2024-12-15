@@ -1,0 +1,11 @@
+.leftside {
+    background-image: url("../../../assets/Registration/Registration-Left.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+a{
+    cursor: pointer;
+}

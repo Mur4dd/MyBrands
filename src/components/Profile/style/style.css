@@ -1,0 +1,46 @@
+@keyframes opening {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.animate {
+    animation: opening 0.3s;
+}
+
+
+@keyframes accordion {
+    from {
+        transform: scale(0.3);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.accordionanimate {
+    animation: accordion 0.2s;
+}
+
+.zindex {
+    z-index: 10000000;
+}
+
+.cardbox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  @media (max-width: 1147px) {
+    .cardbox {
+      flex-direction: column;
+      gap: 0;
+      align-items: flex-start;
+      justify-content: start;
+    }
+  }
